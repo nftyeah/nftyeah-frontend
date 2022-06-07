@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3267783 */
+  src: url('iconfont.woff2?t=1653981272630') format('woff2'),
+       url('iconfont.woff?t=1653981272630') format('woff'),
+       url('iconfont.ttf?t=1653981272630') format('truetype'),
+       url('iconfont.svg?t=1653981272630#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-allreminders:before {
+  content: "\e666";
+}
+
+.icon-down1:before {
+  content: "\e664";
+}
+
+.icon-up1:before {
+  content: "\e665";
+}
+
+.icon-edit:before {
+  content: "\e65f";
+}
+
+.icon-delete:before {
+  content: "\e660";
+}
+
+.icon-down:before {
+  content: "\e661";
+}
+
+.icon-up:before {
+  content: "\e662";
+}
+
+.icon-hint:before {
+  content: "\e663";
+}
+
+.icon-updated:before {
+  content: "\e65d";
+}
+
+.icon-website1:before {
+  content: "\e65b";
+}
+
+.icon-remind:before {
+  content: "\e658";
+}
+
+.icon-close:before {
+  content: "\e657";
+}
+
+.icon-date:before {
+  content: "\e656";
+}
+
+.icon-sound-off:before {
+  content: "\e655";
+}
+
+.icon-sound-on:before {
+  content: "\e654";
+}
+
+.icon-operation:before {
+  content: "\e653";
+}
+
+.icon-arrow-right:before {
+  content: "\e650";
+}
+
+.icon-arrow-left:before {
+  content: "\e652";
+}
+
+.icon-arrow-up:before {
+  content: "\e651";
+}
+
+.icon-arrow-down:before {
+  content: "\e64e";
+}
+
+.icon-search:before {
+  content: "\e64d";
+}
+
+.icon-jump-arrow:before {
+  content: "\e64b";
+}
+
+.icon-eth:before {
+  content: "\e64a";
+}
+
+.icon-website:before {
+  content: "\e649";
+}
+
+.icon-opensea:before {
+  content: "\e648";
+}
+
+.icon-discord:before {
+  content: "\e647";
+}
+
+.icon-youtube:before {
+  content: "\e646";
+}
+
+.icon-instagram:before {
+  content: "\e645";
+}
+
+.icon-medium:before {
+  content: "\e644";
+}
+
+.icon-telegram:before {
+  content: "\e643";
+}
+
+.icon-twitter:before {
+  content: "\e642";
+}
+
+.icon-metamask:before {
+  content: "\e63f";
+}
+
+.icon-null:before {
+  content: "\e63e";
+}
+

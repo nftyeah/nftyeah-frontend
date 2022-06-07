@@ -1,0 +1,122 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+/* html::-webkit-scrollbar {
+    display: none;
+  } */
+
+*{
+    padding: 0;
+    margin: 0
+}
+
+ul li {
+    list-style: none;
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast
+}
+.ripple {
+    position: relative;
+    overflow: hidden;
+}
+.ripple:before{
+    opacity: 0.8;
+}
+.ripple:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .4s, opacity .8s;
+}
+.ripple:active:after {
+    transform: scale(0, 0);
+    opacity: .5;
+    transition: 0s;
+}
+@keyframes rainbow_an{
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 350% 0;
+    }
+    100% {
+        background-position: 0 0 ;
+    }
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*对话框样式修改*/
+.el-icon-close:before {
+    content: "\e657";
+}
+
+.el-dialog{
+    border-radius: 10px !important;
+}
+
+.el-dialog__close{
+    font-size: 25px;
+}
+.el-dialog__body{
+    border-top: 1px solid #EEEEEE;
+    padding: 30px 25px !important;
+}
+
+.el-dialog__header {
+    padding-top: 30px !important;
+    padding-bottom: 24px !important;
+}
+
+.el-select-dropdown__item.selected {
+    color: #725dff !important;
+}
+
+.el-select .el-input.is-focus .el-input__inner{
+ border-color: #725dff !important;
+}
+
+.el-date-table td.next-month, .el-date-table td.prev-month{
+    color: #FCFBFF;
+}
+
+.btn{
+    background: linear-gradient(90deg, #A86BFE 0%, #725DFF 100%);
+    border-radius: 4px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn:active{
+    opacity: 1;
+}
+
+.el-input__inner{
+    height: 48px !important;
+}
